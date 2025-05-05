@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Cheatsheet</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTML & CSS Reference Cheatsheet</h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h2>Basic HTML Tags</h2>
+        </div>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Tag</th>
+                <th>Attributes</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span>&lt;!DOCTYPE&gt;</span></td>
+                <td></td>
+                <td>Document type declaration</td>
+                <td>Defines the document type</td>
+              </tr>
+              <tr>
+                <td><span>&lt;html&gt;</span></td>
+                <td></td>
+                <td>HTML Tag</td>
+                <td>Defines an HTML document</td>
+              </tr>
+              <tr>
+                <td><span>&lt;head&gt;</span></td>
+                <td></td>
+                <td>Head</td>
+                <td>Contains metadata/information for the document</td>
+              </tr>
+              <tr>
+                <td><span>&lt;title&gt;</span></td>
+                <td></td>
+                <td>Title</td>
+                <td>Defines a title for the document</td>
+              </tr>
+              <tr>
+                <td><span>&lt;body&gt;</span></td>
+                <td></td>
+                <td>Body</td>
+                <td>Defines the document's body</td>
+              </tr>
+              <tr>
+                <td><span>&lt;h1&gt; to &lt;h6&gt;</span></td>
+                <td></td>
+                <td>Headings 1 to 6</td>
+                <td>Defines HTML Headings</td>
+              </tr>
+              <tr>
+                <td><span>&lt;p&gt;</span></td>
+                <td></td>
+                <td>Paragraph</td>
+                <td>Defines a paragraph</td>
+              </tr>
+              <tr>
+                <td><span>&lt;br&gt;</span></td>
+                <td></td>
+                <td>Break</td>
+                <td>Inserts a single line break</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>CSS Specificity</h2>
+        </div>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Priority</th>
+                <th>Example</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Inline Style</td>
+                <td><span>&lt;h1 style="color: pink;"&gt;</span></td>
+                <td>
+                  Highest priority, directly applied with the style attribute
+                </td>
+              </tr>
+              <tr>
+                <td>Id Selectors</td>
+                <td>#navbar</td>
+                <td>
+                  Second highest priority, identified by the unique id sttribute
+                  of an element
+                </td>
+              </tr>
+              <tr>
+                <td>Classes and Pseudo-classes</td>
+                <td>.test, :hover</td>
+                <td>Third highest priority, targeted using class names</td>
+              </tr>
+              <tr>
+                <td>Attributes</td>
+                <td>[type="text"]</td>
+                <td>Low priority, applies to attributes</td>
+              </tr>
+              <tr>
+                <td>Elements and Pseudo-elements</td>
+                <td>h1, ::before, ::after</td>
+                <td>
+                  Low priority, applies to HTML elements and pseudo-elements
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Inconsolata", monospace;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  color: navy;
+  text-align: center;
+}
+
+table,
+th, 
+td {
+  border: 1px solid;
+  border-color: blue;
+}
+
+table {
+  margin: 0 auto;
+  width: 800px;
+}
+
+thead {
+  background-color: rgba(255, 68, 0, 0.927);
+}
+
+td {
+  border: 1px solid;
+  border-color: blue;
+  margin: 0;
+  padding: 2px 5px 2px 5px;
+}
